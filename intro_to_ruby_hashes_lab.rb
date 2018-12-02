@@ -27,6 +27,7 @@ def monopoly_with_third_tier
 	  :railroads => {
   	  :pieces => 4, 
   	  :names => {
+<<<<<<< HEAD
   	    :reading_railroad => {},
   	    :pennsylvania_railroad => {}, 
   	    :b_and_o_railroad => {}, 
@@ -37,6 +38,12 @@ def monopoly_with_third_tier
   	    :two_pieces_owned => 50, 
   	    :three_pieces_owned => 100, 
   	    :four_pieces_owned => 200
+=======
+  	    :reading_railroad => {}, :pennsylvania_railroad => {}, :b_and_o_railroad => {}, :shortline => {}
+  	  }, 
+  	  :rent_in_dollars => {
+  	    :one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200
+>>>>>>> 07ce16b179c3b9a0661cd9c7563e3d7317e58e6b
 	    }
 	  }
 	}
@@ -47,6 +54,7 @@ def monopoly_with_fourth_tier
 	  :railroads => {
   	  :pieces => 4, 
   	  :names => {
+<<<<<<< HEAD
   	      :reading_railroad => {"mortgage_value" => "$100"}, 
   	      :pennsylvania_railroad => {"mortgage_value" => "$200"},
   	      :b_and_o_railroad => {"mortgage_value" => "$400"}, 
@@ -61,3 +69,15 @@ def monopoly_with_fourth_tier
 	  }
 	}
 end
+=======
+  	      :reading_railroad => {:mortgage_value => "$100"}, 
+  	      :pennsylvania_railroad => {:mortgage_value => "$200"},
+  	      :b_and_o_railroad => {:mortgage_value => "$400"}, 
+  	      :shortline => {:mortgage_value => "$800"}
+  	    },
+  	  :rent_in_dollars => {:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owned => 200}
+  	  }
+	  }
+	}
+end
+>>>>>>> 07ce16b179c3b9a0661cd9c7563e3d7317e58e6b
